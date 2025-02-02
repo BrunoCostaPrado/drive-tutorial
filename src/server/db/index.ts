@@ -1,7 +1,5 @@
 import { drizzle } from "drizzle-orm/singlestore"
-
 import { createPool, type Pool } from "mysql2/promise"
-
 import { env } from "@/env"
 import * as schema from "./schema"
 
@@ -17,7 +15,6 @@ const conn =
   globalForDb.conn ??
   createPool({
     host: env.SINGLESTORE_HOST,
-    // biome-ignore lint/style/useNumberNamespace: <explanation>
     port: parseInt(env.SINGLESTORE_PORT),
     user: env.SINGLESTORE_USER,
     password: env.SINGLESTORE_PASS,
