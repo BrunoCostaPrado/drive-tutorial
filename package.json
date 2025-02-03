@@ -46,7 +46,7 @@
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "drizzle-kit": "^0.30.2",
-    "eslint": "^9.19.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^15.1.6",
     "eslint-plugin-drizzle": "^0.2.3",
     "postcss": "^8.4.39",
