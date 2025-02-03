@@ -34,7 +34,7 @@ export default function GoogleDriveClone() {
     }
 
     return breadcrumbs
-  },[currentFolder])
+  }, [currentFolder])
 
   const handleUpload = () => {
     alert("Upload functionality would be implemented here")
